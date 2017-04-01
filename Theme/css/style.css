@@ -26,7 +26,33 @@
 	position: relative;
 }
 
-.breaker {
+.right{
+	color:#000;
+    float: clear;
+}
+
+.left{
+	color:#fff;
+    float:left;
+}
+.time{
+	float:right;
+	font-size: 24px;
+}
+
+.timetable{
+	list-style-type: none;
+	text-align: left;
+    color: #aaa;
+    /*color: #add8e6;*/
+}
+ul h3{
+	display: inline;
+	text-align: left;
+	clear: left;
+}
+
+breaker {
 	clear: both;
 	font-size: 1px;
 	line-height: 1px;
@@ -42,6 +68,7 @@ body {
 	background-color: #2f2f2f;
 	font-family: "Titillium Web", sans-serif;
 	font-weight: normal;
+
 	overflow-x: hidden;
 	-webkit-font-smoothing: antialiased !important;
 }
@@ -126,7 +153,7 @@ body {
     height:161px
 }
 #special-active-menu-2 {
-	background-color: #1abc9c !important;
+	background-color: #ccc !important;
 }
 
 #special-active-menu-3 {
@@ -317,17 +344,17 @@ body {
 
 #slide-2 {
 	background-color: #ddd;
-	color: #000;
 	padding-top: 90px;
 }
 
 	.title-row {
+		color: #000;
 		font-size: 45px;
 		padding-bottom: 50px;
 	}
 	
 	.line-row .hr {
-		background-color: #e4e6e5;
+		background-color: #000000;
 		height: 5px;
 		margin: 0 auto;
 		width: 33%;
@@ -352,11 +379,13 @@ body {
 	}
 	
 	.content-row h2 {
+    	color: #000;
 		font-size: 28px;
 		padding-bottom: 40px;
 	}
 	
 	.content-row h4 {
+    	color: #000;
 		font-family: "Titillium Web", "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 		font-size: 20px;
 		font-weight: 300;
@@ -394,58 +423,80 @@ body {
 	}
 }
 #slide-3 {
-	color: #e4e6e5;
-	background-color: #1abc9c;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/unicef_back.jpg');
+	background-color: #000;
+    color: white;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100
+
+	background: rgba(0, 0, 0, 0.8);
+    z-index:100;;
+	background-attachment: relative;
+	background-position: center center;
+    /*background-color: #1abc9c;
 	padding-top: 90px;
+	color:#082567;*/
 }
 
 	.title-row {
+		color: white;
 		font-size: 45px;
 		padding-bottom: 50px;
 	}
 	
 	.line-row .hr {
 		background-color: #e4e6e5;
+		color: #e4e6e5;
 		height: 5px;
 		margin: 0 auto;
 		width: 33%;
 	}
+    .line-row .hr1 {
+		background-color: #e4e6e5;
+		color: #e4e6e5;
+		height: 2px;
+		margin: 0 auto;
+		width: 33%;
+	}
+
 	
 	.subtitle-row {
+		color: #082567
 		font-size: 35px;
 		padding-bottom: 40px;
 		padding-top: 40px;
 	}
 	
 	.content-row {
+        width: 100;
         display: block;
         margin: 0 auto;
 		padding-top: 45px;
+		color: white;
 	}
 	
-	.content-row i,
-	#about-row-5 i {
-		display: block;
-		margin: 0 auto;
-		max-height: 100%;
-		max-width: 100%;
+
+	.subtitle-row h3 {
+		color: #add8e6;
+		align: "right";
 	}
-	
-	.content-row h2 {
-		font-size: 28px;
-		padding-bottom: 40px;
-	}
-	
-	.content-row h4 {
+
+
+	.subtitle-row h4 {
 		font-family: "Titillium Web", "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 		font-size: 20px;
+		color: white;
 		font-weight: 300;
 	}
 	
-	i {
-		font-size: 80px;
-		color: white;
-	}
 	
 @media (max-width: 767px) {
     #slide-3 .title-row {
