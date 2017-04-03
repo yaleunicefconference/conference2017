@@ -43,7 +43,7 @@
 .timetable{
 	list-style-type: none;
 	text-align: left;
-    color: #aaa;
+    color: #fff;
     /*color: #add8e6;*/
 }
 ul h3{
@@ -125,8 +125,8 @@ body {
 }
 
 .active-menu {
-	background-color: #4e4e4e;
-	content: '.';
+/*	background-color: #4e4e4e;
+*/	content: '.';
 	display: block;
 	height: 5px;
 	left: 0;
@@ -147,7 +147,7 @@ body {
 
 #special-active-menu-1,
 #special-active-menu-6 {
-	background-color: #4e4e4e !important;
+	background-color: #3e3e3e !important;
 }
 #logo{
     height:161px
@@ -345,6 +345,7 @@ body {
 #slide-2 {
 	background-color: #ddd;
 	padding-top: 90px;
+    color:white;
 }
 
 	.title-row {
@@ -355,7 +356,9 @@ body {
 	
 	.line-row .hr {
 		background-color: #000000;
-		height: 5px;
+		font-weight:400;
+        color:white;
+        height: 5px;
 		margin: 0 auto;
 		width: 33%;
 	}
@@ -485,7 +488,7 @@ body {
 	
 
 	.subtitle-row h3 {
-		color: #add8e6;
+		color: #fff;
 		align: "right";
 	}
 
@@ -561,8 +564,8 @@ body {
 }
 	
 	#slide-6 .line-row .hr {
-		background-color: #4e4e4e;
-		color: #4e4e4e;
+		background-color: #fff;
+		color: #3e3e3e;
 	}
 
 	#slide-6 a {
@@ -608,7 +611,7 @@ body {
 
 #slide-7 {
 	background-color: #e4e6e5;
-	color: #4e4e4e;
+	color: #3e3e3e;
 	font-size: 35px;
 	line-height: 50px;
 	text-align: center;
